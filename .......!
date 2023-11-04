@@ -1,0 +1,12 @@
+package main
+
+import "fmt"
+
+func main() {
+	const (
+		pi = 3.14
+		r  = 7.7
+		S  = pi * r * r
+	)
+	fmt.Println("圆的面积=", S)
+}
